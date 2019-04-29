@@ -1,5 +1,5 @@
 # Maze-Runner
-A 3D Maze game with maze generation written in netbeans java using OOP concepts &amp; LWJGL For UI. 
+A 3D Maze game with maze generation and solver written in netbeans java using OOP concepts & LWJGL lib For UI. 
 # Overview 
 Maze_Runner is a 3D game using LWJGL challenging game written in pure java. It is fully documented and designed as clean as possible for its readability and further development. with Basic concepts of OOP such as class, inheritance, polymorphism, abstraction and encapsulation is implemented in this project. And maze generation algorithm is used to generate the dynamic game map as well.
 # Maze Runner Proposal 
