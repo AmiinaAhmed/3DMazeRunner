@@ -25,14 +25,15 @@ public class GameMap {
      * @param mazeHeight the number of rows of the maze defined by the player
      * @param mazeWidth  the number of columns of the maze defined by the player
      */
-    GameMap(int mazeHeight, int mazeWidth) {
+     public GameMap(int mazeHeight, int mazeWidth) {
         this.map = new MazeGenerator(mazeHeight, mazeWidth).generate();
         this.height = map.length;
         this.width = map[0].length;
         randomize_X();
         randomize_Y();
     }
-
+   
+    
     /**
      * Returns a 2D array of characters representing the game map.
      *
@@ -123,7 +124,7 @@ public class GameMap {
      *
      * @return a Position object with random x and y coordinates
      */
-    Position getRandomPosition() {
+    public Position getRandomPosition() {
         return new Position(random_X.remove(0), random_Y.remove(0));
     }
 

@@ -70,7 +70,9 @@ public class StartGame {
 //        display = new Display(gameMap.getMap(), player);
 //        display.gameIntroMessage();
     }
-    
+    public GameMap getGameMap() {
+        return gameMap;
+    }
     private void startLoadLevel() {
         loadLevel = new LoadLevel(gameMap, player, display);
         display.createCoveredMap();

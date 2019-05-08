@@ -26,9 +26,9 @@ import Game_Object.Exit;
  * @author Amina A. Abounawara
  */
 public class LoadLevel {
-    static final int NUMBER_OF_GIFTS = 3;
-    static final int NUMBER_OF_MONSTERS = 4;
-    static final int NUMBER_OF_ATTEMPTS = 1;
+    static final int NUMBER_OF_GIFTS = 2;
+    static final int NUMBER_OF_MONSTERS = 3;
+    static final int NUMBER_OF_ATTEMPTS = 2;
     private final GameMap gameMap;
     private final Player player;
     private final Display display;
@@ -42,7 +42,7 @@ public class LoadLevel {
      * @param player  the {@link Player} object
      * @param display the {@link Display} object
      */
-    LoadLevel(GameMap gameMap, Player player, Display display) {
+    public LoadLevel(GameMap gameMap, Player player, Display display) {
         this.gameMap = gameMap;
         this.player = player;
         this.display = display;
